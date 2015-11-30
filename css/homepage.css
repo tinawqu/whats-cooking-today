@@ -1,0 +1,232 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+  width: 100%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+header{
+  font-size: 50px;
+  font-family: cursive;
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+  background: url(../images/header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+.mealcontrols{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+button{
+  font-size: 100%;
+  font-family: cursive;
+  font-weight: bolder;
+  background-color: white;
+  border: none;
+}
+
+
+img{
+  height: 343px;
+  width: calc((100% - 15%) / 3);
+  float: left;
+  margin: 2.5%;
+}
+
+li, h5, h1{
+  text-align: left;
+}
+
+h5, h1{
+  color: rgba(121, 85, 72, 0.79);
+}
+
+h3, h4{
+  text-align: left;
+  font-style: italic;
+}
+
+ol, ul{
+  font-family:arial;
+}
+
+#recipes .mix{
+  display:none;
+}
+
+.recipecontent{
+  background-color: rgba(115, 81, 68, 0.18);
+  padding:8%;
+  font-family: sans-serif;
+}
+
+.recipeimage{
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75%;
+}
+
+.header-tomatosoup {
+  background-image: url(../images/homemade-tomato-soup-6.jpg);
+}
+
+.header-tomatosoup2 {
+  background-image: url(../images/homemade-tomato-soup-1.jpg);
+}
+
+.header-tomatosoup3 {
+  background-image: url(../images/homemade-tomato-soup-2.jpg);
+}
+
+.header-honeyribs {
+  background-image: url(../images/braised_spare_ribs.jpg);
+}
+
+.header-honeyribs2 {
+  background-image: url(../images/garlic_soy_braised_spare_ribs.jpg);
+}
+
+.header-crispypotato{
+  background-image: url(../images/crispy_sweet_potato.jpg)
+}
+
+.header-crispypotato2{
+  background-image: url(../images/crispy_sweet_potato2.jpg)
+}
+
+.header-crispypotato3{
+  background-image: url(../images/crispy_sweet_potato4.jpg)
+}
+
+.header-lambchop{
+  background-image: url(../images/lamb_21.jpg)
+}
+
+.header-lambchop2{
+  background-image: url(../images/lamb-chops.jpg)
+}
+
+.header-lambchop3{
+  background-image: url(../images/lamb-rub.jpg)
+}
+
+.header-lambchop4{
+  background-image: url(../images/lambfinished.jpg)
+}
+
+.header-pumpkinbakedoatmeal{
+  background-image: url(../images/pumpkin_baked_oatmeal.jpg)
+}
+
+.header-pumpkinbakedoatmeal2{
+  background-image: url(../images/pumpkin_baked_oatmeal3.jpg)
+}
+
+.header-pumpkinbakedoatmeal3{
+  background-image: url(../images/pumpkin_baked_oatmeal2.jpg)
+}
+
+.header-slicedpumpkin{
+  background-image: url(../images/pumkin-bread-sliced.jpg)
+}
+
+.header-pumpkinpan{
+  background-image: url(../images/pumpkin-bread-in-pan.jpg)
+}
+
+.header-pumpkinbread{
+  background-image: url(../images/pumpkin-bread-with-butter-honey.jpg)
+}
+
+.header-pullapartbread{
+  background-image: url(../images/pull_apart_bread.jpg)
+}
+.header-pullapartbread2{
+  background-image: url(../images/pullapartbread.jpg)
+}
+
+.header-sausagegnocchi{
+  background-image: url(../images/sausage_kale_baked_gnocchi.jpg)
+}
+
+.header-sausagegnocchi2{
+  background-image: url(../images/sausage_kale_gnocchi3.jpg)
+}
+
+.header-ropavieja{
+  background-image: url(../images/ropavieja_2.jpg)
+}
+
+.header-ropavieja2{
+  background-image: url(../images/ropavieja_herbs.jpg)
+}
+.header-ropavieja3{
+  background-image: url(../images/ropavieja_finished.jpg)
+}
+
+.header-frenchtoast{
+  background-image: url(../images/pumpkin-bread-french-toast.jpg)
+}
+.header-frenchtoast2{
+  background-image: url(../images/pumpkin-bread-french-toast2.jpg)
+}
+
+.header-turkeyspaghetti{
+  background-image: url(../images/turkey_stuffed_squash2.jpg)
+}
+
+.header-turkeyspaghetti2{
+  background-image: url(../images/turkey_stuffed_squash3.jpg)
+}
+
+.header-turkeyspaghetti3{
+  background-image: url(../images/turkey_stuffed_squash.jpg)
+}
+
+.header-slowcookercreolechicken{
+  background-image: url(../images/creole-chicken.jpg)
+}
+
+.header-slowcookercreolechicken2{
+  background-image: url(../images/creole-chicken2.jpg)
+}
+
+.header-ChocolateChipCookie{
+  background-image: url(../images/chocolate-chip-cookie2.jpeg)
+}
+
+.header-ChocolateChipCookie2{
+  background-image: url(../images/chocolate-chip-cookies9.jpg)
+}
+
+.header-ChocolateChipCookie3{
+  background-image: url(../images/chocolate-chip-cookies-dough.jpg)
+}
+
+.header-ChocolateChipCookie4{
+  background-image: url(../images/chocolate-chip-cookies.jpg)
+}
+
