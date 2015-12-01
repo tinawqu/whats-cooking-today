@@ -19,6 +19,7 @@ body{
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: auto;
 }
 
 header{
@@ -39,7 +40,7 @@ header{
 }
 
 button{
-  font-size: 100%;
+  font-size: 128%;
   font-family: cursive;
   font-weight: bolder;
   background-color: white;
@@ -71,14 +72,18 @@ ol, ul{
   font-family:arial;
 }
 
-#recipes .mix{
-  display:none;
+.homepage{
+  font-family: cursive;
+  font-size: 1.25em;
+  color: black;
+  margin-top: 10%;
 }
 
 .recipecontent{
   background-color: rgba(115, 81, 68, 0.18);
   padding:8%;
   font-family: sans-serif;
+  color: rgba(121, 85, 72, 0.79);
 }
 
 .recipeimage{
@@ -87,6 +92,56 @@ ol, ul{
     background-repeat: no-repeat;
     background-position: center;
     height: 75%;
+}
+
+.icon{
+  display:none;
+}
+
+@media screen and (max-width:800px){
+
+  header{
+    font-size: 40px;
+    padding: 45px;
+  }
+
+  img{
+    height: 343px;
+    width: calc((100% - 15%) / 2);
+    float: left;
+    margin: 2.5%;
+  }
+
+  .icon{
+    display: block;
+    height: 40px;
+    width: 40px;
+    padding-right: 45%;
+    padding-left: 45%;
+    margin-top: 2%;
+  }
+
+  .mealcontrols{
+    display: none;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:400px){
+  
+  img{
+    height: 343px;
+    width: calc((100% - 15%));
+    float: left;
+    margin: 2.5%;
+  }
+
+  header{
+    font-size: 25px;
+    padding: 40px;
+  }
+
 }
 
 .header-tomatosoup {
