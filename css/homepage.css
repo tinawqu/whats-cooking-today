@@ -23,20 +23,27 @@ body{
 }
 
 header{
-  font-size: 50px;
-  font-family: cursive;
-  width: 100%;
-  color: white;
-  font-weight: bolder;
   background: url(../images/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px;
 }
 
+.title{
+  font-size: 50px;
+  font-family: cursive;
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+}
+
 .mealcontrols{
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+#recipes .mix{
+  display:none;
 }
 
 button{
@@ -47,12 +54,16 @@ button{
   border: none;
 }
 
+/*.hide {
+  display: none;
+}*/
 
 img{
   height: 343px;
   width: calc((100% - 15%) / 3);
   float: left;
   margin: 2.5%;
+  display: block;
 }
 
 li, h5, h1{
@@ -98,6 +109,7 @@ ol, ul{
   display:none;
 }
 
+
 @media screen and (max-width:800px){
 
   header{
@@ -116,14 +128,23 @@ ol, ul{
     display: block;
     height: 40px;
     width: 40px;
-    padding-right: 45%;
-    padding-left: 45%;
+    margin: auto;
     margin-top: 2%;
   }
 
   .mealcontrols{
     display: none;
-    text-align: center;
+    font-size: 1em;
+    
+  }
+
+  .mealcontrols button{
+    display: block;
+    margin: auto;
+/*    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
   }
 
 }
@@ -285,3 +306,75 @@ ol, ul{
   background-image: url(../images/chocolate-chip-cookies.jpg)
 }
 
+.header-crabcake{
+  background-image: url(../images/crabcake2.jpg)
+}
+
+.header-crabcake2{
+  background-image: url(../images/crabcake.jpg)
+}
+
+.header-uni{
+  background-image: url(../images/uni-risotto.jpg)
+}
+
+.header-uni2{
+  background-image: url(../images/uni.jpg)
+}
+
+
+.header-yellowtail{
+  background-image: url(../images/yellowtail-crudo2.jpg)
+}
+
+.header-yellowtail2{
+  background-image: url(../images/radishes.jpg)
+}
+
+.header-yellowtail3{
+  background-image: url(../images/yellowtail-crudo.jpg)
+}
+
+.header-yellowtail4{
+  background-image: url(../images/shiso-leaves.jpg)
+}
+
+.header-cake{
+  background-image: url(../images/double-chocolate-cake-with-buttercream-frosting.jpg)
+}
+
+.header-cake2{
+  background-image: url(../images/buttercream.jpg)
+}
+
+.header-cake3{
+  background-image: url(../images/double-chocolate-cake-with-buttercream-frosting2.jpg)
+}
+
+.header-ball{
+  background-image: url(../images/peanut-butter-cookie-dough-balls.jpg)
+}
+
+.header-ball2{
+  background-image: url(../images/peanut-butter-balls.jpg)
+}
+
+.header-ball3{
+  background-image: url(../images/peanut-butter-cookie-dough-balls2.jpg)
+}
+
+.header-shrimp{
+  background-image: url(../images/shrimp-garlic-bread-sauce.jpg)
+}
+
+.header-shrimp2{
+  background-image: url(../images/shrimp.jpg)
+}
+
+.header-shrimp3{
+  background-image: url(../images/shrimp-garlic-bread-sauce2.jpg)
+}
+
+.header-shrimp4{
+  background-image: url(../images/food-processor.jpg)
+}
