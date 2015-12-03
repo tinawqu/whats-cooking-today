@@ -54,10 +54,6 @@ button{
   border: none;
 }
 
-/*.hide {
-  display: none;
-}*/
-
 img{
   height: 343px;
   width: calc((100% - 15%) / 3);
@@ -377,4 +373,27 @@ ol, ul{
 
 .header-shrimp4{
   background-image: url(../images/food-processor.jpg)
+}
+
+.header-Sausagestrata{
+  background-image: url(../images/sausage-stratta.jpg)
+}
+
+.header-Sausagestrata2{
+  background-image: url(../images/sausage-stratta-bread.jpg)
+}
+
+.header-Sausagestrata3{
+  background-image: url(../images/sausage-stratta2.jpg)
+}
+
+.header-Sausagestrata4{
+  background-image: url(../images/sausage-stratta-cut.jpg)
+}
+
+.header-shakshuka{
+  background-image: url(../images/shakshuka.jpg)
+}
+.header-shakshuka2{
+  background-image: url(../images/shakshuka2.jpg)
 }
